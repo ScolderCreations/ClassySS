@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+}
+.darkmode {
+  background-color: black;
+  color: white;
+  .faded {
+    color: lightgray;
+  }
+}
+.lightmode {
+  background-color: white;
+  color: black;
+  .faded {
+    color: darkgray;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+}
+.thin {
+  font-weight: 1px;
+}
+.bigletterspacing {
+  letter-spacing: 0.2em;
+  word-spacing: inherit;
+}
+.bigwordspacing {
+  letter-spacing: inherit;
+  word-spacing: 0.2em;
+}
+a {
+  color: royalblue;
+  .underline {
+    text-decoration: underline;
+  }
+  text-decoration: none;
+}
