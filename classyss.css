@@ -1,5 +1,9 @@
-body {
+.body {
   font-family: 'Segoe UI', Verdana, sans-serif;
+  margin: 0px;
+  padding-left: 1em;
+  margin-top: 80px;
+  max-inline-size: 90vw;
 }
 .darkmode {
   background-color: black;
@@ -38,4 +42,12 @@ a {
     text-decoration: underline;
   }
   text-decoration: none;
+}
+header {
+  margin: none;
+  padding-left: 1em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
